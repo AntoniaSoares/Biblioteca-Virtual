@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Biblioteca Virtual</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input, button { margin: 5px; }
+    .livro { margin-bottom: 10px; border-bottom: 1px solid #ccc; padding: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Biblioteca Virtual</h1>
+
+  <h2>Adicionar Livro</h2>
+  <input type="text" id="titulo" placeholder="Título">
+  <input type="text" id="autor" placeholder="Autor">
+  <input type="number" id="ano" placeholder="Ano">
+  <button onclick="adicionarLivro()">Adicionar</button>
+
+  <h2>Lista de Livros</h2>
+  <div id="lista-livros"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
